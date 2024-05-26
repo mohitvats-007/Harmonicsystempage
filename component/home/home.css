@@ -1,0 +1,845 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+}
+.homecontainer{
+    display: flex;
+    justify-content: space-evenly;
+    /* height: 80vh; */
+    width: 100vw;
+    /* margin-top: 15vh; */
+    padding-top: 25vh;
+    background-image: url("https://media.licdn.com/dms/image/D5612AQH7U5D-SJAzXg/article-cover_image-shrink_720_1280/0/1682722176585?e=2147483647&v=beta&t=M4lVDyRWqgvX_97xIJGa2cPmP0XFlMe7O9C5J-UljjE");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    /* background-size: contain; */
+    
+}
+
+.leftcontainer h1{
+    font-family: Poppins, sans-serif, Roboto;
+    /* font-size: xx-large; */
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #211f32;
+}
+.leftcontainer{
+    width: 41vw;
+}
+.leftcontainer p{
+    /* font-size: xx-large; */
+    /* font-size: 50px; */
+    color: blue;
+    /* margin: 20px; */
+}
+.leftcontainer p1{
+    display: inline-block;
+    /* background-color: #6147ff; */
+    /* text-align: center; */
+    /* width: 100%; */
+    /* font-size: xx-large; */
+    font-size: 20px;
+    /* color: blue; */
+    /* margin-top: 980px; */
+    color: #211f32;
+    /* font-family: Poppins, sans-serif, Roboto; */
+    /* line-height: 1.6; */
+}
+.leftcontainer li{
+    list-style: none;
+    text-decoration: none;
+}
+.Partnerbutton{
+    background-color: #6147ff;
+    border-radius: 35px;
+    padding: 14px 20px;
+    margin-top: 8%;
+    width: 20vw;
+    list-style: none;
+    border: .1px solid rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+    color: white;  
+    /* margin-bottom: 43px; */
+    list-style: none;
+}
+
+
+
+.carousel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.carousel .cardd{
+    list-style: none;
+}
+ .carousel{
+    /* display: grid; */
+    /* background-color: #faebd7; */
+    /* grid-auto-flow: column; */
+    /* justify-content: center; */
+    align-items: center;
+    margin: auto 0;
+    width: 80vw;
+    height: 8vh;
+    /* grid-auto-columns: calc((100% /3)-12px); */
+   gap: 50px;
+   /* align-items: center; */
+}
+
+.warpper{
+    margin-top: 10%;
+    margin: 1% auto;
+    align-items: center;
+    display: flex;
+    width: 80vw;
+    height: 11vh;
+    background-color: #f2f1f8;
+    border-radius: 20px;
+}
+.cardd{
+    font-size: 16px;
+    /* background-color: #6147ff; */
+    padding: 0 2.3%;
+    
+    /* border: #6147ff; */
+    /* border:  1px thin black ; */
+    margin: 0 .3%;
+}
+
+
+
+.sliderheading{
+    /* position: relative; */
+    margin-top:  4%;
+    margin-left: 34%;
+    /* text-decoration: none; */
+    font-size: 203%;
+    font-weight: 400;
+}
+.navigationbars{
+    display: none;
+}
+
+
+#menu-toggle{
+    display: none;
+}
+@media (max-width: 633px) {
+
+
+    .menu-btn {
+        display: block;
+        position: relative;
+        cursor: pointer;
+        padding: 10px;
+        background-color: #5b5b5b;
+        z-index: 1001;
+        color: #fff;
+    }
+    
+    .menu-btn span {
+        display: block;
+        width: 20px;
+        height: 2px;
+        margin-top:12px;
+        margin: 2px auto;
+        transition: transform 0.3s ease;
+      }
+      
+      .menu-btn:hover span {
+        background-color: #ccc;
+      }
+      
+      .menu-btn.active span:nth-child(1) {
+        transform: translateY(6px) rotate(45deg);
+      }
+      
+      .menu-btn.active span:nth-child(2) {
+        opacity: 0;
+      }
+      
+      .menu-btn.active span:nth-child(3) {
+        transform: translateY(-6px) rotate(-45deg);
+      }
+      
+      .menu {
+          position: absolute;
+          width: 78%;
+          background-color: #908f8f;
+          color: #fff;
+          opacity: 0;
+          top: 10px;
+          height: 90vh;
+          visibility: hidden;
+          transition: opacity 0.1s ease-out;
+          display: flex;
+          left: 0%;
+        /* right: 0%; */
+          /* display: none; */
+          transition: all .4s ;
+        /* z-index: 1000; */
+    }
+    
+    .menu.active {
+         left: 40%; 
+        opacity: 1;
+        position: absolute;
+        height: 90vh;
+        display: flex;
+        transition: .5s;
+        visibility: visible;
+        z-index: 1;
+      }
+      
+      .menu ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      
+      .menu li {
+        padding: 15px 0;
+        border-bottom: 1px solid #444;
+      }
+      
+      .menu a {
+        display: block;
+        color: #fff;
+        text-decoration: none;
+        padding: 5px 15px;
+      }
+      
+      .menu a:hover {
+        background-color: #444;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .homecontainer{
+        
+        padding-top: 15vh;
+        padding-left: 12px;
+    }
+
+    .navigationbars {
+        /* display: flex; */
+        /* position: relative; */
+        /* background-color: rgb(144, 200, 200); */
+        /* width: 100vw; */
+        /* text-align: center; */
+        /* height: 30vh; */
+        /* left: 100px; */
+        /* left: -100%; */
+        /* display: none; */
+        /* transition: all .1s ease-out; */
+    }
+   
+    
+    .checkbtn{
+            cursor: pointer;
+        }
+
+
+
+    .navigationbars ul{
+        /* display: flex; */
+        margin: 0 auto;
+        
+    }
+    .navigationbars ul li{
+        list-style: none;
+        padding: 20% 0;
+        
+    }
+
+    .leftcontainer h1{
+        margin-left: 3px;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .Partnerbutton{
+       
+        padding: 10px 20px;
+        margin-top: 8%;
+        width: 50vw;
+      
+    }
+
+    .rightcontainer img{
+        width: 350px;
+    }
+
+    .sliderheading{
+        margin-top:    1%;
+    margin-left: 9%;
+    font-size: 133%;
+    width: 80vw;
+    font-weight: 400;
+    }
+    .warpper{
+        margin-top: 5%;
+        width: 100vw;
+        height: 15vh;
+        background-color: #f2f1f8;
+        border-radius: 20px;
+    }
+
+
+    .carousel{
+        align-items: center;
+        margin: auto 0;
+        padding: 0px;
+        height: 10vh;
+       gap: 10px;
+    }
+    }
+  /* -----------------------------new page------------------------------------ */
+
+
+
+
+  /* *{
+    font-family: "Poppins", sans-serif;
+} */
+
+.bannercontainer{
+    /* background: linear-gradient(97.02deg, #ECE7FE 0%, #EAFAF3 102.86%);
+    justify-content: space-between;
+    display: flex;
+   
+    width: 1800px; */
+    background-image: url("https://www.vanguardlights.com/uploads/231218/1-23121Q63119528.jpg");
+    /* height: 100vh; */
+    width: 100vw;
+    /* background-color: rgb(109, 85, 53); */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 6%;
+    display: flex;
+    flex-direction: row;
+}
+.leftbannercontainer{
+    padding: 0 259px 0 0px ;
+    width: 48vw;
+    margin: 0% 0 3% 0;
+}
+.error-message{
+    color: red;
+    /* height: 12px; */
+    width: 100%;
+    margin-right: 152px;
+}
+
+.bannerheading{
+    width: 600px;
+}
+.bannerheading h1{
+    text-align: left;
+   font-size: 46px;
+   font-weight: 600;
+   width: 623px;
+   /* height: 87px; */
+   
+}
+.bannerpara{
+    text-align: left;
+    color: rgba(33, 31, 50, 1);
+    width: 738px;
+    height: 43px;
+    margin: 40px 0 ;
+    font-size: 18px;
+}
+.bannermobileinput input{
+    width: 412px;
+    height: 66px;
+    border-radius: 10px;
+    border: 1px solid rgba(186, 183, 183, 1);
+    padding-left: 35px;
+}
+.bannermobileinput input::placeholder{
+    font-size: 20px;
+    line-height: 24px;
+    width: 208px;
+}
+.bannergetofferbutton button{
+    width: 210px;
+    height: 66px;
+    color: white;
+    border-radius: 10px;
+     background: rgba(97, 71, 255, 1);
+    font-size: 20px;
+    /* border: 1.5px thin rgb(169, 37, 37) ; */
+    border: 0;
+}
+.mobilebuttoncontainer{
+    width: 644px;
+    display: flex;
+    height: 66px;
+    /* background-color: aqua; */
+    justify-content: space-between;
+    /* flex-direction: row; */
+}
+.mobilebuttoncontainer input{
+    font-size: 26px;
+     
+}
+
+.rightbannercontainer{
+    margin-top: 5%;
+    margin-right: 12px;
+
+}
+.bannerimage img{
+    height: 429px;
+    width: 520px;
+    /* background-color: aqua; */
+}
+
+
+
+/* ---------------------------------------------------------- */
+
+
+
+
+.containerx{
+    height: 100vh;
+    width: 100vw;
+    margin-top: 62px;
+    /* margin-bottom: 10px; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url("https://www.vanguardlights.com/uploads/180428/1-1P42P03521U0.jpg") ;
+    flex-direction: column;
+}
+
+
+
+
+.advantage{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    color: rgb(175, 255, 137);
+    align-items: center;
+    /* bottom: 12px; */
+}
+.advantageheading{
+/* font-size: 20px; */
+}
+.innercontainer{
+    height: 50vh;
+    width: 90vw;
+    /* margin-top: 12px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b1{
+    border: 2px solid white;
+    height: 304px;
+    color: rgb(255, 255, 255);
+    width: 290px;
+    margin: 15px;
+    margin-top: 25%;
+    border-radius: 20px;
+}
+
+.b1data{
+    padding: 30px 0 0 12px;
+}
+.headingindiv h2{
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 500px;
+    height: 42px;
+    margin-top: 20px;
+}
+.paraindiv p{
+    font-size: 14px;
+    font-weight: 400px;
+    margin-top: 32px;
+    height: 40px;
+    padding: 10px 0;
+}
+
+/* ------------------------------ credit score css-------------------------------------------> */
+.sectionreport {
+    width: 100%;
+    height: 70vh;
+    /* margin-bottom: 12px; */
+    /* background: linear-gradient( to right,rgba(234, 250, 243, 1),rgba(236, 231, 254, 1)); */
+}
+.creditreport {
+    /* margin-top: 120px; */
+    display: flex;
+    /* background-color: brown; */
+    justify-content: space-between;
+    margin-bottom: 372px;
+}
+.freereport {
+    margin-top: 100px;
+    width: 522px;
+    height: 303px;
+}
+.creditreport h1 {
+    font-size: 38px;
+    font-weight: 600;
+}
+.freereport p {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 100%;
+    color: rgba(33, 31, 50, 1);
+    width: 471px;
+}
+.scoreimg {
+    margin-top: 100px;
+    width: 590px;
+    height: 320px;
+}
+.star {
+    /* width: 470px; */
+    display: flex;
+    flex-direction: column;
+}
+.star > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 10px;
+    margin-top: 15px;
+}
+.inline {
+    display: inline;
+}
+.inline p {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 400;
+    margin: 0px;
+}
+.creditscore {
+    width: 220px;
+    /* height: 54px; */
+    margin: 0px;
+}
+.creditscore button {
+    width: 220px;
+    height: 54px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: rgba(97, 71, 255, 1);
+    border-radius: 12px;
+    background-color: rgba(97, 71, 255, 1);
+    border: 0px solid rgba(97, 71, 255, 1);
+}
+.creditscorebtn a {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    align-items: center;
+}
+
+
+@media  screen and (max-width: 1250px) {
+    
+    .bannercontainer{
+      
+        /* background: linear-gradient(97.02deg, #ECE7FE 0%, #EAFAF3 102.86%);
+        justify-content: space-between;
+        display: flex;
+       
+        width: 1800px; */
+    
+        /* height: 100vh; */
+        width: 100vw;
+        /* background-color: aqua; */
+        /* background-color: rgb(109, 85, 53); */
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .leftbannercontainer{
+        padding: 100px 2px 0 0px ;
+        width: 100%;
+        margin: 0% 0 0 0;
+    }
+    .error-message{
+        color: red;
+        /* height: 12px; */
+        width: 100%;
+        margin-right: 152px;
+    }
+    
+    .bannerheading{
+        width: 100%;
+    }
+    .bannerheading h1{
+       font-size: 30px;
+       font-weight: 600;
+       width: 100%;
+       /* height: 87px; */
+       
+    }
+    .bannerpara{
+        color: rgba(33, 31, 50, 1);
+        width: 95%;
+        height: 43px;
+        margin: 40px 0 ;
+        font-size: 18px;
+    }
+    .bannermobileinput input{
+        width: 100%;
+        /* width: 412px; */
+        height: 66px;
+        border-radius: 10px;
+        border: 1px solid rgba(186, 183, 183, 1);
+        padding-left: 35px;
+    }
+    .bannermobileinput input::placeholder{
+        font-size: 20px;
+        line-height: 24px;
+        width: 208px;
+    }
+    .bannergetofferbutton button{
+        /* width: 100%; */
+        width: 210px;
+        height: 66px;
+        color: white;
+        border-radius: 10px;
+         background: rgba(97, 71, 255, 1);
+         margin-top:5%;
+        font-size: 20px;
+        /* border: 1.5px thin rgb(169, 37, 37) ; */
+        border: 0;
+    }
+    .mobilebuttoncontainer{
+        width: 100%;
+        display: flex;
+        /* height: 106px; */
+        /* background-color: aqua; */
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .mobilebuttoncontainer input{
+        font-size: 26px;
+         
+    }
+    
+    .rightbannercontainer{
+        margin-top:15%;
+        margin-right: 0px;
+    
+    }
+    .bannerimage img{
+        /* height: 429px; */
+        /* width: 520px; */
+        width: 100%;
+        /* background-color: aqua; */
+    }
+    
+    
+    
+    /* ---------------------------------------------------------- */
+    
+    
+    
+    
+    .containerx{
+        height: 80vh;
+        width: 100vw;
+        margin-top: 62px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    
+    
+    .advantage{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        /* bottom: 12px; */
+    }
+    .advantageheading{
+    /* font-size: 20px; */
+    }
+    .innercontainer{
+        height: 40vh;
+        /* width: 90vw; */
+        width: 100%;
+        /* margin-top: 12px; */
+        display: flex;
+        justify-content: center;
+        /* flex-direction: column; */
+        align-items: center;
+    }
+    .b1{
+        height: 204px;
+        width: 100%;
+        /* width: 290px; */
+        margin: 15px;
+        border-radius: 20px;
+    }
+    
+    .b1data{
+        padding: 10px 0 0 0px;
+    }
+    .headingindiv h2{
+        padding: 10px 0;
+        font-size: 20px;
+        font-weight: 500px;
+        height: 42px;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .paraindiv p{
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+        font-weight: 400px;
+        margin-top: 32px;
+        height: 40px;
+        padding: 10px 0;
+    }
+    
+    /* ------------------------------ credit score css-------------------------------------------> */
+    .sectionreport {
+        width: 100%;
+        height: 110vh;
+        /* margin-bottom: 12px; */
+        /* background: linear-gradient( to right,rgba(234, 250, 243, 1),rgba(236, 231, 254, 1)); */
+    }
+    .creditreport {
+        /* margin-top: 120px; */
+        display: flex;
+        /* background-color: brown; */
+        justify-content: space-between;
+        
+        flex-direction: column;
+        margin-bottom: 2px;
+    }
+    .freereport {
+        margin-top: 100px;
+        width: 100%;
+        /* width: 522px; */
+        height: 303px;
+    }
+    .creditreport h1 {
+        font-size: 38px;
+        font-weight: 600;
+    }
+    .freereport p {
+        font-size: 16px;
+        font-weight: 400;
+        opacity: 100%;
+        color: rgba(33, 31, 50, 1);
+        width: 100%;
+    }
+    .scoreimg img {
+        /* margin-top: 100px; */
+        width: 80%;
+        height: 320px;
+    }
+    .scoreimg  {
+        /* margin-top: 100px; */
+        width: 100%;
+        /* height: 320px; */
+    }
+    .star {
+        /* width: 470px; */
+        display: flex;
+        flex-direction: column;
+    }
+    .star > div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 10px;
+        margin-top: 15px;
+    }
+    .inline {
+        display: inline;
+    }
+    .inline p {
+        font-size: 18px;
+        color: rgba(0, 0, 0, 1);
+        font-weight: 400;
+        margin: 0px;
+    }
+    .creditscore {
+        /* width: 220px; */
+        /* height: 54px; */
+        margin: 0px;
+        width: 100%;
+    }
+    .creditscore button {
+        /* width: 220px; */
+        width: 100%;
+        height: 54px;
+        margin-top: 30px;
+        cursor: pointer;
+        color: rgba(97, 71, 255, 1);
+        border-radius: 12px;
+        background-color: rgba(97, 71, 255, 1);
+        border: 0px solid rgba(97, 71, 255, 1);
+    }
+    .creditscorebtn a {
+        width: 100%;
+        color: rgba(255, 255, 255, 1);
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 15px;
+        align-items: center;
+    }
+}
